@@ -2,7 +2,7 @@
     "name": "aikvadrober/debuglogin",
     "description": "Login to any customer account with a single GET request. Local development only.",
     "type": "magento2-module",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "keywords": ["magento2", "debug", "login", "development"],
     "require": {
         "php": "^8.1",
