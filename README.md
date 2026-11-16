@@ -1,5 +1,7 @@
 # AiKvadrober DebugLogin module
 
+> **Warning:** This module is strictly intended for **local development and debugging purposes only**. Never deploy or enable it in a production environment. Use at your own risk.
+
 One GET request logs you into a Magento 2 storefront as any customer. No passwords, no passkeys, no password-reset emails, no CAPTCHA guessing. Copy it into `app/code`, hit the URL, you are in - as admin, as QA, as the customer who reported the bug.
 
 ## Why
