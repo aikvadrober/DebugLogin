@@ -12,7 +12,13 @@ Testing a customer-facing bug used to mean: reset the password, dig the reset li
 
 ## Install
 
-Drop the module into a local Magento project:
+Via composer (once the package is on Packagist):
+
+```bash
+composer require aikvadrober/debuglogin
+```
+
+Or drop the module into a local Magento project:
 
 ```bash
 # from the project root
