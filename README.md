@@ -12,6 +12,12 @@ Testing a customer-facing bug used to mean: reset the password, dig the reset li
 - Zero footprint: one controller, two XML files, no cron, no observers, no queues.
 - Safe by default: hard-coded guards make it a silent 404 anywhere except a local dev host in developer mode.
 
+## Requirements
+
+- Magento 2.4+ (`magento/framework ^103.0`, `magento/module-customer ^103.0`)
+- PHP 8.1+
+- Developer mode and a local host - otherwise the endpoint is a 404 (see [Safety model](#safety-model))
+
 ## Install
 
 Via composer (once the package is on Packagist):
